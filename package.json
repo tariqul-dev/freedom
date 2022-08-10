@@ -1,0 +1,21 @@
+{
+  "name": "freedom",
+  "version": "1.0.0",
+  "description": "freedom is a travel app where user will find tour offers by travel agencys and user can join their and enjoy the tour",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Tariqul Islam, Tanvir Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6"
+  }
+}
